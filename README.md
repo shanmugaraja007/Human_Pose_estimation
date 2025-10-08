@@ -87,7 +87,8 @@ Step7: Run the pose gesture node in a new terminal
       ros2 run pose_estimation pose_gesture_node
 Now the robot should react to gestures detected by YoloPose v8:
 
-<img width="2353" height="1283" alt="Screenshot 2025-10-07 152940" src="https://github.com/user-attachments/assets/a46b9856-c2f3-4480-9c43-ceed5ec73813" />
+<img width="2344" height="1227" alt="Screenshot 2025-10-07 152940" src="https://github.com/user-attachments/assets/b7d1bbca-155e-4a7d-ae7a-eb9e87b56645" />
+
 
 
 
