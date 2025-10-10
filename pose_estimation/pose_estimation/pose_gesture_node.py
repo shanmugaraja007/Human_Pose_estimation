@@ -117,11 +117,11 @@ class PoseGestureNode(Node):
         twist = Twist()
         if gesture == "FORWARD":
             twist.linear.x = 0.2
-            self.get_logger().info(" Gesture: FORWARD → Moving robot")
+            self.get_logger().info(" Gesture: FORWARD -> Moving robot")
         elif gesture == "STOP":
             twist.linear.x = 0.0
             twist.angular.z = 0.0
-            self.get_logger().info("Gesture: STOP → Stopping robot")
+            self.get_logger().info("Gesture: STOP -> Stopping robot")
         else:
             twist.linear.x = 0.0
         self.pub_cmd.publish(twist)
